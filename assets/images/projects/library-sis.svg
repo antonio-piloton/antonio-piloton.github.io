@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgLib" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06261B"/>
+      <stop offset="100%" stop-color="#0E422F"/>
+    </linearGradient>
+    <linearGradient id="goldLib" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E7C64A"/>
+      <stop offset="100%" stop-color="#C59F28"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" fill="url(#bgLib)"/>
+
+  <!-- Academic Library & Student Information Management Dashboard -->
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="480" height="270" rx="12" fill="#0C1712" stroke="url(#goldLib)" stroke-width="1.5"/>
+    <rect x="0" y="0" width="480" height="34" rx="12" fill="#073B2A"/>
+    <rect x="0" y="22" width="480" height="12" fill="#073B2A"/>
+    
+    <text x="24" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#E7C64A">UniLib &amp; SIS • Unified Academic Catalog &amp; Student Record Portal</text>
+
+    <!-- Search bar -->
+    <rect x="24" y="46" width="300" height="26" rx="6" fill="#142820" stroke="#1D4A36" stroke-width="1"/>
+    <text x="36" y="63" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#8EA89D">🔍 Search catalog (ISBN, title, author, call number)...</text>
+
+    <!-- Borrowing Quick Stats -->
+    <rect x="334" y="46" width="122" height="26" rx="6" fill="#143527"/>
+    <text x="395" y="63" font-family="monospace" font-size="8" fill="#2ECC71" text-anchor="middle">ACTIVE LOANS: 834</text>
+
+    <!-- Book Cards Grid -->
+    <g transform="translate(24, 84)">
+      <!-- Book 1 -->
+      <rect x="0" y="0" width="138" height="160" rx="8" fill="#11221B" stroke="#1D4A36" stroke-width="1"/>
+      <rect x="10" y="10" width="118" height="65" rx="4" fill="#073B2A"/>
+      <text x="69" y="38" font-family="'Playfair Display', serif" font-size="11" font-weight="700" fill="#E7C64A" text-anchor="middle">ALGORITHMS</text>
+      <text x="69" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" fill="#FFF" text-anchor="middle">4th Edition • Cormen</text>
+      
+      <text x="12" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#FFF">Intro to Algorithms</text>
+      <text x="12" y="104" font-family="monospace" font-size="6.5" fill="#8EA89D">QA 76.6 .C662</text>
+      <rect x="12" y="118" width="65" height="16" rx="8" fill="#143527"/>
+      <text x="44" y="129" font-family="'Plus Jakarta Sans', sans-serif" font-size="6.5" fill="#2ECC71" text-anchor="middle">Available (4)</text>
+
+      <!-- Book 2 -->
+      <rect x="148" y="0" width="138" height="160" rx="8" fill="#11221B" stroke="#1D4A36" stroke-width="1"/>
+      <rect x="158" y="10" width="118" height="65" rx="4" fill="#1B3E30"/>
+      <text x="217" y="38" font-family="'Playfair Display', serif" font-size="11" font-weight="700" fill="#E7C64A" text-anchor="middle">DATABASE</text>
+      <text x="217" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" fill="#FFF" text-anchor="middle">Concepts • Silberschatz</text>
+
+      <text x="160" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#FFF">Database System Concepts</text>
+      <text x="160" y="104" font-family="monospace" font-size="6.5" fill="#8EA89D">QA 76.9 .D3 S56</text>
+      <rect x="160" y="118" width="65" height="16" rx="8" fill="#143527"/>
+      <text x="192" y="129" font-family="'Plus Jakarta Sans', sans-serif" font-size="6.5" fill="#2ECC71" text-anchor="middle">Available (2)</text>
+
+      <!-- Student Record / Loan Drawer (Right) -->
+      <rect x="296" y="0" width="136" height="160" rx="8" fill="#142820" stroke="#1D4A36" stroke-width="1"/>
+      <text x="310" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#F7F5EF">Student Clearance</text>
+      <text x="310" y="38" font-family="monospace" font-size="7" fill="#8EA89D">ID: 2023-CS-0182</text>
+      <text x="310" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" fill="#FFF">BS Information Tech</text>
+
+      <line x1="310" y1="65" x2="418" y2="65" stroke="#1D4A36" stroke-width="1"/>
+
+      <text x="310" y="82" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" fill="#8EA89D">Overdue Fines: <tspan fill="#2ECC71">₱0.00</tspan></text>
+      <text x="310" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" fill="#8EA89D">Library Status: <tspan fill="#2ECC71">CLEARED</tspan></text>
+      <text x="310" y="114" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" fill="#8EA89D">Card Expiry: <tspan fill="#E7C64A">2027-06</tspan></text>
+
+      <rect x="310" y="128" width="108" height="22" rx="4" fill="#0B5A3B"/>
+      <text x="364" y="142" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" font-weight="700" fill="#FFF" text-anchor="middle">GENERATE SLIP</text>
+    </g>
+  </g>
+</svg>

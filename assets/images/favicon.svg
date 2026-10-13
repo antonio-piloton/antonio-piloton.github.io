@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E7C64A" />
+      <stop offset="100%" stop-color="#C5A028" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#073B2A" />
+      <stop offset="100%" stop-color="#0B5A3B" />
+    </linearGradient>
+  </defs>
+  <!-- Background Shield -->
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)" />
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-opacity="0.6"/>
+  <!-- Academic / Monogram AP -->
+  <path d="M18 46 L26 18 L34 46 M21 37 L31 37" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M36 46 L36 18 L44 18 C48.5 18 51 21 51 25.5 C51 30 48.5 33 44 33 L36 33" stroke="#F7F5EF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

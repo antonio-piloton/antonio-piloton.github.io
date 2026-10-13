@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgDoc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#052419"/>
+      <stop offset="100%" stop-color="#0E4230"/>
+    </linearGradient>
+    <linearGradient id="goldDoc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E7C64A"/>
+      <stop offset="100%" stop-color="#C59F28"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" fill="url(#bgDoc)"/>
+
+  <!-- Stepper / Document Transmittal Timeline Graphic -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="480" height="260" rx="12" fill="#0C1712" stroke="url(#goldDoc)" stroke-width="1.5"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="480" height="36" rx="12" fill="#073B2A"/>
+    <rect x="0" y="24" width="480" height="12" fill="#073B2A"/>
+    <text x="24" y="23" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#E7C64A">DOC-TRACK • Institutional Document Lifecycle &amp; Transmittal</text>
+    <rect x="360" y="8" width="100" height="20" rx="10" fill="#143527" stroke="#2ECC71" stroke-width="1"/>
+    <text x="410" y="21" font-family="monospace" font-size="7.5" fill="#2ECC71" text-anchor="middle">STATUS: IN TRANSIT</text>
+
+    <!-- Barcode & Tracking Number Card -->
+    <g transform="translate(24, 52)">
+      <rect x="0" y="0" width="432" height="60" rx="8" fill="#13231B" stroke="#1D4A36" stroke-width="1"/>
+      <text x="16" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#8EA89D">Tracking ID: <tspan fill="#F7F5EF" font-weight="700">ADSSU-DOC-2026-08942</tspan></text>
+      <text x="16" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#8EA89D">Subject: <tspan fill="#F7F5EF">Curriculum Enhancement Proposal &amp; Board Resolution</tspan></text>
+
+      <!-- Barcode Graphic on Right -->
+      <g transform="translate(310, 10)">
+        <rect x="0" y="0" width="105" height="36" rx="3" fill="#FFF"/>
+        <!-- Barcode lines -->
+        <rect x="8" y="4" width="3" height="28" fill="#000"/>
+        <rect x="14" y="4" width="1" height="28" fill="#000"/>
+        <rect x="18" y="4" width="4" height="28" fill="#000"/>
+        <rect x="25" y="4" width="2" height="28" fill="#000"/>
+        <rect x="30" y="4" width="5" height="28" fill="#000"/>
+        <rect x="38" y="4" width="2" height="28" fill="#000"/>
+        <rect x="43" y="4" width="3" height="28" fill="#000"/>
+        <rect x="49" y="4" width="1" height="28" fill="#000"/>
+        <rect x="54" y="4" width="4" height="28" fill="#000"/>
+        <rect x="62" y="4" width="2" height="28" fill="#000"/>
+        <rect x="68" y="4" width="5" height="28" fill="#000"/>
+        <rect x="76" y="4" width="2" height="28" fill="#000"/>
+        <rect x="82" y="4" width="4" height="28" fill="#000"/>
+        <rect x="90" y="4" width="2" height="28" fill="#000"/>
+        <rect x="95" y="4" width="3" height="28" fill="#000"/>
+      </g>
+    </g>
+
+    <!-- Transmittal Stepper -->
+    <g transform="translate(24, 130)">
+      <!-- Step 1 -->
+      <circle cx="40" cy="30" r="14" fill="#0B5A3B" stroke="#2ECC71" stroke-width="2"/>
+      <text x="40" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#FFF" text-anchor="middle">✓</text>
+      <text x="40" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#F7F5EF" text-anchor="middle">Originating Unit</text>
+      <text x="40" y="69" font-family="monospace" font-size="6.5" fill="#7E9A8E" text-anchor="middle">CCS Dean Office</text>
+
+      <!-- Line 1-2 -->
+      <line x1="60" y1="30" x2="125" y2="30" stroke="#2ECC71" stroke-width="3"/>
+
+      <!-- Step 2 -->
+      <circle cx="145" cy="30" r="14" fill="#0B5A3B" stroke="#2ECC71" stroke-width="2"/>
+      <text x="145" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#FFF" text-anchor="middle">✓</text>
+      <text x="145" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#F7F5EF" text-anchor="middle">VPAA Review</text>
+      <text x="145" y="69" font-family="monospace" font-size="6.5" fill="#7E9A8E" text-anchor="middle">Academic Affairs</text>
+
+      <!-- Line 2-3 -->
+      <line x1="165" y1="30" x2="230" y2="30" stroke="#E7C64A" stroke-width="3"/>
+
+      <!-- Step 3 (Active) -->
+      <circle cx="250" cy="30" r="16" fill="#073B2A" stroke="#E7C64A" stroke-width="3"/>
+      <circle cx="250" cy="30" r="6" fill="#E7C64A"/>
+      <text x="250" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#E7C64A" text-anchor="middle">Budget Office</text>
+      <text x="250" y="69" font-family="monospace" font-size="6.5" fill="#E7C64A" text-anchor="middle">Processing (Now)</text>
+
+      <!-- Line 3-4 -->
+      <line x1="272" y1="30" x2="335" y2="30" stroke="#1D4A36" stroke-width="2" stroke-dasharray="3 3"/>
+
+      <!-- Step 4 -->
+      <circle cx="355" cy="30" r="14" fill="#13231B" stroke="#1D4A36" stroke-width="2"/>
+      <text x="355" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#7E9A8E" text-anchor="middle">4</text>
+      <text x="355" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#7E9A8E" text-anchor="middle">President's Office</text>
+      <text x="355" y="69" font-family="monospace" font-size="6.5" fill="#4B6056" text-anchor="middle">Final Approval</text>
+    </g>
+
+    <!-- Audit Log Preview -->
+    <g transform="translate(24, 215)">
+      <rect x="0" y="0" width="432" height="32" rx="6" fill="#0E1D16"/>
+      <text x="12" y="20" font-family="monospace" font-size="7.5" fill="#8EA89D">2026-10-13 14:22:05 — Received at Budget Office by Admin Officer IV [QR Logged]</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06261B"/>
+      <stop offset="100%" stop-color="#0F4733"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15241D"/>
+      <stop offset="100%" stop-color="#0D1612"/>
+    </linearGradient>
+    <linearGradient id="goldAcc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3DC7C"/>
+      <stop offset="100%" stop-color="#C89F2A"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="360" fill="url(#bg1)"/>
+  
+  <!-- Subtle Grid Lines -->
+  <g stroke="#196347" stroke-width="1" stroke-opacity="0.3">
+    <line x1="0" y1="60" x2="600" y2="60"/>
+    <line x1="0" y1="120" x2="600" y2="120"/>
+    <line x1="0" y1="180" x2="600" y2="180"/>
+    <line x1="0" y1="240" x2="600" y2="240"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+    <line x1="100" y1="0" x2="100" y2="360"/>
+    <line x1="200" y1="0" x2="200" y2="360"/>
+    <line x1="300" y1="0" x2="300" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+    <line x1="500" y1="0" x2="500" y2="360"/>
+  </g>
+
+  <!-- Mobile Device Mockup Left -->
+  <g transform="translate(70, 35)">
+    <!-- Device Frame -->
+    <rect x="0" y="0" width="160" height="290" rx="24" fill="#0E1612" stroke="url(#goldAcc)" stroke-width="2.5"/>
+    <rect x="8" y="12" width="144" height="266" rx="16" fill="url(#screenGrad)"/>
+    <!-- Top Notch / Speaker -->
+    <rect x="52" y="18" width="56" height="6" rx="3" fill="#06261B"/>
+    
+    <!-- Mobile Screen UI -->
+    <!-- App Header -->
+    <rect x="16" y="34" width="128" height="26" rx="6" fill="#0B5A3B"/>
+    <text x="24" y="51" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#E7C64A">ScanAlert • Mobile</text>
+    <circle x="132" y="47" cx="132" cy="47" r="3" fill="#2ECC71"/>
+
+    <!-- NFC Wave Icon -->
+    <g transform="translate(64, 85)" stroke="#E7C64A" stroke-width="2" fill="none">
+      <path d="M-8 0 A10 10 0 0 1 -8 18" stroke-linecap="round"/>
+      <path d="M-2 -5 A18 18 0 0 1 -2 23" stroke-linecap="round"/>
+      <path d="M4 -10 A26 26 0 0 1 4 28" stroke-linecap="round"/>
+    </g>
+    <text x="80" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#F7F5EF" text-anchor="middle" font-weight="600">NFC / RFID SCANNER</text>
+
+    <!-- QR Code Graphic in Phone -->
+    <rect x="36" y="140" width="88" height="88" rx="8" fill="#FFFFFF"/>
+    <g fill="#073B2A">
+      <!-- QR Position markers -->
+      <rect x="44" y="148" width="22" height="22" rx="3"/>
+      <rect x="47" y="151" width="16" height="16" fill="#FFF"/>
+      <rect x="50" y="154" width="10" height="10"/>
+
+      <rect x="94" y="148" width="22" height="22" rx="3"/>
+      <rect x="97" y="151" width="16" height="16" fill="#FFF"/>
+      <rect x="100" y="154" width="10" height="10"/>
+
+      <rect x="44" y="198" width="22" height="22" rx="3"/>
+      <rect x="47" y="201" width="16" height="16" fill="#FFF"/>
+      <rect x="50" y="204" width="10" height="10"/>
+
+      <!-- QR Pattern bits -->
+      <rect x="72" y="152" width="6" height="14"/>
+      <rect x="82" y="160" width="8" height="6"/>
+      <rect x="74" y="174" width="12" height="12"/>
+      <rect x="92" y="180" width="8" height="8"/>
+      <rect x="72" y="194" width="14" height="6"/>
+      <rect x="92" y="200" width="14" height="18"/>
+    </g>
+
+    <!-- Offline Sync Banner -->
+    <rect x="18" y="240" width="124" height="24" rx="6" fill="#143527" stroke="#2ECC71" stroke-width="1"/>
+    <text x="26" y="255" font-family="monospace" font-size="7.5" fill="#2ECC71">● Offline Sync Ready</text>
+  </g>
+
+  <!-- Central Sync Wave / Bridge -->
+  <g transform="translate(250, 160)" stroke="url(#goldAcc)" stroke-width="2" stroke-dasharray="4 4" fill="none">
+    <path d="M 0 0 C 30 -30 60 30 90 0"/>
+    <polygon points="90,-3 98,0 90,3" fill="#E7C64A"/>
+  </g>
+  <text x="295" y="145" font-family="monospace" font-size="9" fill="#E7C64A" text-anchor="middle">SQLite ⇄ REST API</text>
+
+  <!-- Web Tablet / Dashboard Screen Right -->
+  <g transform="translate(355, 45)">
+    <!-- Device Body -->
+    <rect x="0" y="0" width="215" height="270" rx="14" fill="#0D1612" stroke="#1D4A36" stroke-width="2"/>
+    <rect x="6" y="6" width="203" height="258" rx="10" fill="#101D17"/>
+    
+    <!-- Dashboard Top Bar -->
+    <rect x="14" y="14" width="187" height="24" rx="4" fill="#073B2A"/>
+    <circle cx="26" cy="26" r="3.5" fill="#E74C3C"/>
+    <circle cx="36" cy="26" r="3.5" fill="#E7C64A"/>
+    <circle cx="46" cy="26" r="3.5" fill="#2ECC71"/>
+    <text x="60" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#F7F5EF" font-weight="600">SafeTrack Realtime Monitor</text>
+
+    <!-- Metrics Cards -->
+    <rect x="14" y="46" width="58" height="42" rx="4" fill="#172B22" stroke="#1D4A36" stroke-width="1"/>
+    <text x="20" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="6.5" fill="#8EA89D">Attendance</text>
+    <text x="20" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#E7C64A">98.4%</text>
+
+    <rect x="78" y="46" width="58" height="42" rx="4" fill="#172B22" stroke="#1D4A36" stroke-width="1"/>
+    <text x="84" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="6.5" fill="#8EA89D">Logged</text>
+    <text x="84" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#2ECC71">1,420</text>
+
+    <rect x="142" y="46" width="59" height="42" rx="4" fill="#172B22" stroke="#1D4A36" stroke-width="1"/>
+    <text x="148" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="6.5" fill="#8EA89D">Alerts</text>
+    <text x="148" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#F39C12">0 New</text>
+
+    <!-- Real-time Table List Mockup -->
+    <rect x="14" y="96" width="187" height="158" rx="4" fill="#13221C"/>
+    <!-- Row 1 -->
+    <rect x="20" y="104" width="175" height="22" rx="3" fill="#1A3127"/>
+    <circle cx="28" cy="115" r="4" fill="#2ECC71"/>
+    <rect x="38" y="112" width="70" height="6" rx="2" fill="#E2ECE7"/>
+    <rect x="150" y="112" width="38" height="6" rx="2" fill="#E7C64A"/>
+
+    <!-- Row 2 -->
+    <rect x="20" y="132" width="175" height="22" rx="3" fill="#172B22"/>
+    <circle cx="28" cy="143" r="4" fill="#2ECC71"/>
+    <rect x="38" y="140" width="85" height="6" rx="2" fill="#C2D3CC"/>
+    <rect x="150" y="140" width="38" height="6" rx="2" fill="#8EA89D"/>
+
+    <!-- Row 3 -->
+    <rect x="20" y="160" width="175" height="22" rx="3" fill="#1A3127"/>
+    <circle cx="28" cy="171" r="4" fill="#2ECC71"/>
+    <rect x="38" y="168" width="60" height="6" rx="2" fill="#E2ECE7"/>
+    <rect x="150" y="168" width="38" height="6" rx="2" fill="#E7C64A"/>
+
+    <!-- Row 4 -->
+    <rect x="20" y="188" width="175" height="22" rx="3" fill="#172B22"/>
+    <circle cx="28" cy="199" r="4" fill="#2ECC71"/>
+    <rect x="38" y="196" width="75" height="6" rx="2" fill="#C2D3CC"/>
+    <rect x="150" y="196" width="38" height="6" rx="2" fill="#8EA89D"/>
+    
+    <!-- Mini Live Badge -->
+    <rect x="20" y="220" width="90" height="20" rx="10" fill="#0B5A3B"/>
+    <text x="65" y="233" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#E7C64A" text-anchor="middle">● Gateway Active</text>
+  </g>
+</svg>
